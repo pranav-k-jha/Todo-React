@@ -35,3 +35,4 @@ The app consists of the following components:
 
 - React
 - HTML
+- Tailwind CSS
