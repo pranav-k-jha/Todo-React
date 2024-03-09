@@ -27,8 +27,9 @@ The todo list is stored in the browser's local storage. This allows users to rev
 The app consists of the following components:
 
 - `App`: The main component that renders the entire application.
-- `TodoList`: Component for displaying the list of todos.
 - `Todo`: Component representing an individual todo item.
+- `TodoList`: Component for displaying the list of todos.
+
 
 ## Technologies Used
 
