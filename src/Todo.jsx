@@ -4,7 +4,7 @@ const Todo = ({ todo, toggleTodo }) => {
   }
 
   return (
-    <div className="flex items-center mb-2">
+    <div className="flex items-center p-1 w-40">
       <input
         type="checkbox"
         checked={todo.complete}
