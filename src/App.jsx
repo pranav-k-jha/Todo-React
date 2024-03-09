@@ -41,7 +41,7 @@ const App = () => {
   }
 
   return (
-    <div className="w-auto h-auto mt-8 p-10 rounded shadow">
+    <div className="w-300 mt-8 p-10 rounded shadow">
       <TodoList todos={todos} toggleTodo={toggleTodo} />
       <div className="flex items-center mt-4">
         <input
@@ -63,7 +63,7 @@ const App = () => {
           Clear Complete
         </button>
       </div>
-      <div className="bg-blue-300 mt-4 text-gray-600">
+      <div className="mt-4 text-amber-500">
         {todos.filter((todo) => !todo.complete).length} left to do
       </div>
     </div>

@@ -2,19 +2,25 @@ const Todo = ({ todo, toggleTodo }) => {
   function handleTodoClick() {
     toggleTodo(todo.id);
   }
+
   return (
-    <div>
-      <label>
-        <input
-          type="checkbox"
-          checked={todo.complete}
-          onChange={handleTodoClick}
-        />
+    <div className="flex items-center mb-2">
+      <input
+        type="checkbox"
+        checked={todo.complete}
+        onChange={handleTodoClick}
+        className="mr-2 form-checkbox text-blue-500"
+      />
+      <label
+        className={`cursor-pointer ${
+          todo.complete ? 'line-through text-gray-500' : ''
+        }`}
+      >
         {todo.name}
       </label>
-      {todo.name}
     </div>
   );
 };
+
 
 export default Todo;
