@@ -45,7 +45,7 @@ const App = () => {
       <TodoList todos={todos} toggleTodo={toggleTodo} />
       <div className="flex flex-col sm:flex-row items-center mt-4">
         <input
-          className="flex-1 px-2 py-1 border rounded mb-2 sm:mr-2 sm:mb-0 focus:outline-none"
+          className="flex-1 px-4 py-2 border rounded mb-2 sm:mr-2 sm:mb-0 focus:outline-none"
           ref={todoNameRef}
           type="text"
           placeholder="Add todo..."
